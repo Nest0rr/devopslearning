@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Launching script..'
-                bash 'check.sh'
+                'sh check.sh'
             }
         }
     }
